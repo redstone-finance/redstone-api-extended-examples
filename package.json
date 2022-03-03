@@ -1,0 +1,17 @@
+{
+  "name": "redstone-api-extended-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/redstone-finance/redstone-api-extended-examples",
+  "author": "hatskier <suvorovalex1997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --config jestconfig.json"
+  },
+  "dependencies": {
+    "redstone-api-extended": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
