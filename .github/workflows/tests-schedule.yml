@@ -1,7 +1,7 @@
 name: Monitoring tests
 on:
   schedule:
-    - cron: '2 * * * *'
+    - cron: '0 12 * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
