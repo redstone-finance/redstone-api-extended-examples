@@ -1,6 +1,7 @@
+name: Monitoring tests
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '2 * * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
