@@ -6,7 +6,8 @@
   "author": "hatskier <suvorovalex1997@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --config jestconfig.json"
+    "test": "jest --runInBand --config jestconfig.json",
+    "test:default": "yarn test test/test-each-single-source.test.js"
   },
   "dependencies": {
     "redstone-api-extended": "^1.0.2"

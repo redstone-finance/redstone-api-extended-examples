@@ -13,4 +13,4 @@ jobs:
       - name: Install modules
         run: yarn
       - name: Run tests
-        run: yarn test test/test-each-single-source.test.js
+        run: yarn test

@@ -1,6 +1,6 @@
 const redstone = require("redstone-api-extended");
 
-const MAX_TIME_DIFF = 150000; // 150s
+const MAX_TIME_DIFF = 175000; // 175s
 
 const dataFeedIds = [
   "redstone",
