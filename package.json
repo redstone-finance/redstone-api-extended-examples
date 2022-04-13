@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --runInBand --config jestconfig.json",
-    "test:default": "yarn test test/test-each-single-source.test.js"
+    "test:default": "yarn test test/test-each-single-source.test.js",
+    "test:examples": "yarn test test/examples",
+    "test:monitoring": "yarn test test/big-tests/big-test-avalanche-prod.test.js test/test-each-data-feed.test.js"
   },
   "dependencies": {
     "redstone-api-extended": "^1.0.2"

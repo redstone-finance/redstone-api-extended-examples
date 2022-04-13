@@ -1,4 +1,4 @@
-import redstone from "../../src/index";
+const redstone = require("redstone-api-extended");
 
 const TRIES_COUNT = 1000;
 

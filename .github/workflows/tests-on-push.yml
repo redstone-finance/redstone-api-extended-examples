@@ -11,4 +11,4 @@ jobs:
       - name: Install modules
         run: yarn
       - name: Run tests
-        run: yarn test:default
+        run: yarn test:examples
